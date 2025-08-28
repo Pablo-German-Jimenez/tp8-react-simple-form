@@ -1,0 +1,158 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*Navbar linkin style*/
+.navbar-musical {
+  background-color: #2c3e50;
+  color: #edecf1;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3498db;
+  text-shadow: 0 0 5px rgba(52, 152, 219, 0.7);
+}
+
+.nota-musical {
+  margin-left: 10px;
+  color: #3498db;
+  animation: flotar 2s infinite ease-in-out;
+}
+
+.nota-musical:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.nota-musical:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.nota-musical:nth-child(3) {
+  animation-delay: 1s;
+}
+
+@keyframes flotar {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(-10px) rotate(5deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0.7;
+  }
+}
+
+/* Efecto de resplandor para el texto */
+.navbar-musical {
+  background: linear-gradient(90deg, #2c3e50 0%, #1a2530 100%);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-musical {
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .navbar-title {
+    margin-bottom: 10px;
+  }
+}
+
+@keyframes destello {
+  0% { opacity: 0.2; }
+  50% { opacity: 1; }
+  100% { opacity: 0.2; }
+}
+
+/*Footer Linkin Style*/
+.footer-animado {
+  position: relative;
+  overflow: hidden;
+  color: #d49c23;
+  font-weight: bold;
+  background: linear-gradient(270deg, #0074d9, #e5e4e2, #0074d9, #e5e4e2);
+  background-size: 400% 400%;
+  animation: gradienteAnimado 8s ease-in-out infinite;
+  border: none;
+  box-shadow: 0 0 10px #0074d955, 0 0 20px #e5e4e288;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes gradienteAnimado {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Destellos animados */
+.footer-animado #destello {
+  position: absolute;
+  top: 50%;
+  left: -60px;
+  width: 60px;
+  height: 8px;
+  background: linear-gradient(90deg, transparent, #fff 60%, transparent);
+  opacity: 0.7;
+  border-radius: 8px;
+  filter: blur(2px);
+  pointer-events: none;
+  animation: destelloAnimado 2.5s linear infinite;
+}
+
+.footer-animado #destello:nth-child(2) {
+  animation-delay: 1s;
+  top: 60%;
+  left: -80px;
+  width: 80px;
+  opacity: 0.5;
+}
+
+.footer-animado #destello:nth-child(3) {
+  animation-delay: 2s;
+  top: 40%;
+  left: -100px;
+  width: 100px;
+  opacity: 0.4;
+}
+
+@keyframes destelloAnimado {
+  0% { left: -100px; opacity: 0; }
+  10% { opacity: 0.8; }
+  50% { left: 100%; opacity: 0.7; }
+  90% { opacity: 0; }
+  100% { left: 100%; opacity: 0; }
+}
