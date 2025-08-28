@@ -1,11 +1,10 @@
-import React from "react";
-import "../App.css"; // Asegúrate de importar el mismo CSS que usa el footer
+import "../App.css"; 
 
 const NavbarBboyLinkinStyle = () => {
   return (
     <nav className="navbar-musical d-flex justify-content-center align-items-center w-100 px-4 py-2">
       <div className="d-flex justify-content-center align-items-center ">
-        <h1 className="mb-0 me-3 text-warning">Formulario Simple</h1>
+        <h1 className="mb-0 me-3 text-warning">Simple Form Inscription Red-Bull-Bc-One😎♪</h1>
       </div>
       
       <div className="d-flex align-items-center">
