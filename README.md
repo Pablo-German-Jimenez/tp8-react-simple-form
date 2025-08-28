@@ -1,12 +1,43 @@
-# React + Vite
+Simple Form with React
+This project is a simple form built with React, using Bootstrap for design and components. It includes form validation and a responsive design.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Technologies Used
+React - JavaScript library for building user interfaces
 
-Currently, two official plugins are available:
+React Bootstrap - Bootstrap components for React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Bootstrap Hooks - Custom hooks for handling form state
 
-## Expanding the ESLint configuration
+CSS3 - For custom styles and animations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Features
+Form with validation fields
+
+Responsive design with Bootstrap
+
+Animations and visual effects
+
+Easy to customize and extend
+
+📦 Installation
+Follow these steps to install and run the project on your local machine:
+
+Clone the repository:
+
+git clone https://github.com/your-username/react-form-simple.git
+
+🌐 Deployment
+The project is deployed on Netlify. You can view the live version at:
+
+https://react-form-simplejsx.netlify.app/
+
+✨ Author
+Created by Pablo Germán Jiménez
+Design inspired by 💥 hip-hop vibes from Bboy Linkin
+
+###### [Access to profile GitHub](https://github.com/Pablo-German-Jimenez)💻
+###### [Access to profile Linkedin](https://www.linkedin.com/in/pablo-german-jimenez-0b706a200/)📊
+
+💥 Breaker-boy for ever🎵 
+
+ ![🔥#Bboys on fire 🎵 ](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG11M2dtOHdnYWUxN3N6NTFoZ2t5Z24xcmV5djJjcjI4ODlyZ3duZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ANFZtmUiXncuUmKMwY/giphy.gif)
