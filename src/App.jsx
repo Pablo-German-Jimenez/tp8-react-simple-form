@@ -3,11 +3,15 @@ import "./App.css";
 import NavbarBboyLinkinStyle from "./components/NavBarLinkinStyle";
 import SimpleForm from "./components/Formulario";
 import RedBullBcOneBboyHongTen from "./components/RedBullBcOneBboyHongTen";
+import GraffitiBackground from "./components/GraffitiBackground";
 
 function App() {
   return (
     <>
-      <div className="app-container">
+    
+
+  <div className="app-container">
+    
         <NavbarBboyLinkinStyle/>
         
         <main className="d-flex justify-content-center align-items-center flex-wrap">
