@@ -1,5 +1,9 @@
 Simple Form with React
 This project is a simple form built with React, using Bootstrap for design and components. It includes form validation and a responsive design.
+🌐 Deployment
+The project is deployed on Netlify. You can view the live version at:
+
+https://react-form-simplejsx.netlify.app/
 
 🚀 Technologies Used
 React - JavaScript library for building user interfaces
@@ -26,10 +30,7 @@ Clone the repository:
 
 git clone https://github.com/your-username/react-form-simple.git
 
-🌐 Deployment
-The project is deployed on Netlify. You can view the live version at:
 
-https://react-form-simplejsx.netlify.app/
 
 ✨ Author
 Created by Pablo Germán Jiménez
