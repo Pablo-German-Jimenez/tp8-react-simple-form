@@ -12,7 +12,7 @@ const GraffitiBackground = () => {
         width: '100vw',
         height: '100vh',
         backgroundImage: `url(${graffitiBg})`,
-        backgroundSize: 'cover',
+        objectFit: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         zIndex: -1,
