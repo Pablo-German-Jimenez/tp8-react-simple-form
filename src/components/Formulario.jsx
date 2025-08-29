@@ -1,5 +1,6 @@
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import Badge from "react-bootstrap/Badge";
 
 function SimpleForm() {
   return (
@@ -21,9 +22,9 @@ function SimpleForm() {
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label></Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
-        <Form.Text className="text-danger">
-          We'll never share your email with anyone else.
-        </Form.Text>
+        <Badge bg="warning" text="dark">
+          We'll never share your email amd D.N.I with anyone else.
+        </Badge>
       </Form.Group>
       <Button variant="success" type="submit">
         Submit
