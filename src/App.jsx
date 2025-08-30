@@ -10,7 +10,7 @@ function App() {
     <>
     
 
-  <div className="app-container">
+  <div className="app-container ">
     <GraffitiBackground />
         <NavbarBboyLinkinStyle/>
         
