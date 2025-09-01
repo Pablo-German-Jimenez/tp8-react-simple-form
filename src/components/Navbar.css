@@ -6,6 +6,7 @@
   z-index: 1000;
   box-shadow: 0 2px 10px rgba(0,0,0,0.2);
   font-family: 'Arial', sans-serif;
+  
 }
 
 .navbar-title {
@@ -35,15 +36,15 @@
 
 @keyframes flotar {
   0% {
-    transform: translateY(0) rotate(0deg);
+    transform: translateY(5) rotate(50deg);
     opacity: 0.7;
   }
   50% {
-    transform: translateY(-10px) rotate(5deg);
+    transform: translateY(-100px) rotate(50deg);
     opacity: 1;
   }
   100% {
-    transform: translateY(0) rotate(0deg);
+    transform: translateY(250) rotate(50deg);
     opacity: 0.7;
   }
 }

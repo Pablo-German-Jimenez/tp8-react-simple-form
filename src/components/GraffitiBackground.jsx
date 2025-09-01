@@ -10,13 +10,12 @@ const GraffitiBackground = () => {
         top: 0,
         left: 0,
         width: '100%',
-        height: '160vh',
+        height: '115vh',
         backgroundImage: `url(${graffitiBg})`,
-        objectFit: 'cover',
         backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
+        backgroundRepeat: 'repeat',
         zIndex: -1,
-        marginBotton: '1000px',
+        
       }}
     />
   );
