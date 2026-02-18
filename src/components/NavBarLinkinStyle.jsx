@@ -20,7 +20,7 @@ const NavbarBboyLinkinStyle = () => {
           viewBox="0 0 16 16"
         />
         <div className="d-flex  align-content-baseline ">
-          <p className="text-warning my-1">reaker</p>
+          <p className="text-warning my-1">reak</p>
         </div>
         <i className="bi bi-currency-bitcoin text-bg-warning rounded-2"></i>
         <p className="text-warning my-1">oyLinkin</p>
